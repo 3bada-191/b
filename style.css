@@ -1,4 +1,10 @@
-
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 hr {
